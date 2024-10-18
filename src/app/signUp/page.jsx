@@ -12,7 +12,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 
-function page() {
+function SingupPage() {
 
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
@@ -98,4 +98,4 @@ createUserWithEmailAndPassword(auth, email, password)
   )
 }
 
-export default page
+export default SingupPage
