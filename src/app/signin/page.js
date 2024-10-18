@@ -66,7 +66,7 @@ function Page() {
 
        {loading ? (<div>Loading...</div>) : ( <button type='submit' className="w-32 p-3  font-bold rounded-md bg-green-300 hover:bg-green-500 ">Submit</button>)}
 
-        <p>If you have not account go <Link className='font-bold' href={'./sigUp'}>Signup</Link> </p>
+        <p>If you have not account go <Link className='font-bold' href={'/sigUp'}>Signup</Link> </p>
 
 
 
