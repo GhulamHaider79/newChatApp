@@ -1,6 +1,5 @@
 'use client'
 import Link from 'next/link'
-import React from 'react'
 import { 
    auth,
    db, 
@@ -12,7 +11,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 
-function SingupPage() {
+function SignupPage() {
 
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
@@ -98,4 +97,4 @@ createUserWithEmailAndPassword(auth, email, password)
   )
 }
 
-export default SingupPage
+export default SignupPage;

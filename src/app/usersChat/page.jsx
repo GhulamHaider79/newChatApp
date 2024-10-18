@@ -1,5 +1,5 @@
 'use client'
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import {
   auth, 
   collection, 
@@ -36,7 +36,7 @@ function chatPage() {
     const getUser = async () => {
       const response = await getDocs(collection(db, "users"));
       const userData = response.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-      console.log("user Data", userData);
+     
       
       setUserList(userData);
     };
