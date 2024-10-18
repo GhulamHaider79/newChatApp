@@ -21,7 +21,7 @@ import { useRouter } from 'next/navigation';
 import userImage from '@/public/corporate-user-icon.webp'
 
 
-function chatPage() {
+function ChatPage() {
 
   const [userList, setUserList] = useState([]);
   const [loggedInUser, setLoggedInUser] = useState(null);
@@ -196,4 +196,4 @@ function logout(params) {
   )
 }
 
-export default chatPage
+export default ChatPage

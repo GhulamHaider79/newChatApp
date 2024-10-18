@@ -8,7 +8,7 @@ import { auth, signInWithEmailAndPassword } from "@/firebase/firebaseConfig";
 import { useState } from 'react';
 
 
-function page() {
+function Page() {
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
   const [loading, setLoading] = useState(false);
@@ -75,4 +75,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
